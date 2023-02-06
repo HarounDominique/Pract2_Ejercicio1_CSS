@@ -1,0 +1,68 @@
+/*Estilo para aplicar a todos los elementos de la aplicación*/
+.root{
+    -fx-background-color:#ee82ee;
+    -fx-font-family:"serif"; //Se recomienda trabajar con familias de letra
+
+
+}
+/* Estilo de nodo, se puede aplicar a todos los botones de la aplicación con Button*/
+
+/* Estilo para todos los botones de la aplicación.
+Esta forma de aplicar es utilizando los estilos de clase*/
+
+.button {
+    -fx-font-size: 12px;
+}
+/* Estilo cuando se posiciona el ratón sobre cualquier botón */
+.button:hover {
+    -fx-font-size: 16px;
+}
+
+/* Estilo de clase para asignar la botón 1 de la segunda fila */
+.mi_clase_estilo1{
+    -fx-text-fill: #ffa500;
+    -fx-font-size: 20px;
+    -fx-background-color:#ee82ee;
+}
+
+/* Estilo de clase para asignar la botón 2 de la segunda fila */
+.mi_clase_estilo2{
+    -fx-text-fill: orange;
+    -fx-font-size: 20px;
+    -fx-background-color:#ff82ee;
+}
+
+/* Estilo de clase para asignar la botón 2 de la segunda fila */
+.mi_clase_estilo3{
+    -fx-text-fill: #ffa500;
+    -fx-font-size: 15px;
+    -fx-background-color:green;
+}
+/* Estilo para botón con ID estilo1_clase */
+#estilo1_clase {
+    -fx-text-fill: red;
+}
+/* Estilo para botón con ID estilo2_clase */
+#estilo2_clase{
+    -fx-text-fill: orange;
+}
+/* Estilo para botón con ID estilo3_clase */
+#estilo3_clase{
+    -fx-text-fill: brown;
+}
+
+/* Estilo para botón con ID estilo4_clase */
+#estilo4_clase{
+
+    -fx-font-size: 8px;
+    -fx-text-fill: red;
+
+}
+#estilo_clase_nuevo{
+
+    -fx-text-fill: yellow;
+    -fx-background-color: "darkslateblue";
+
+}
+
+
